@@ -1,0 +1,84 @@
+body{
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    
+}
+
+h1{
+    font-size: 25px;
+    font-style: oblique;
+}
+
+h2{
+    color: cornflowerblue;
+}
+
+p{
+    font-size: 12px;
+    color: black;
+}
+
+a {
+	color: #18272F;
+    position: relative;
+    text-decoration: none;
+}
+
+a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+section{
+    
+    margin-top: 20px;
+}
+
+.photoProfile{
+    border-radius: 50%;
+}
+
+.ulExperience{
+    list-style-type: none;
+   
+}
+
+.ulExperience li{
+    display: block; /* Make list items behave as blocks */
+    padding: 1px;
+    margin-bottom: 10px;
+    
+}
+
+
+.ulConnect{
+    list-style-type: none;
+   
+}
+
+.ulConnect li{
+    display: block; /* Make list items behave as blocks */
+    padding: 1px;
+    margin-bottom: 10px;
+    
+}
+
+
+
+
+
