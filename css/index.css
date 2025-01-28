@@ -22,6 +22,43 @@
 }
 /******* End Tablets Media Query ************/
 
+/****************Celphones*************************/
+@media (min-width: 360px) and (max-width: 932px) {
+    body {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    p{
+        font-style:normal;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .namePerson{
+        font-size: 15px;
+    }
+
+    .divNavigation{
+        display:none ;
+    }
+
+    .experience-header{
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    
+    .job-description{
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
+/******* End Celphones Media Query ************/
+
 html {
     scroll-behavior: smooth;
     scroll-margin-top: 20px;
