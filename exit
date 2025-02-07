@@ -1,0 +1,79 @@
+[33mcommit e3b26221b9cdfb13d3553a1e4d7e14f91d2daed9[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mlesson-9[m[33m, [m[1;31morigin/lesson-9[m[33m)[m
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Fri Jan 3 17:16:22 2025 -0800
+
+    Included navbar, more styles and sections
+
+[33mcommit 2d0dd6d37d791c186548ff5075a9554a188f629b[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Fri Jan 3 10:43:44 2025 -0800
+
+    Update README.md
+    
+    Removing my full name
+
+[33mcommit ced889635368f67017a95e95690f1478fcae49f8[m
+Merge: 9f0fca2 9ac881c
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Thu Dec 26 10:32:28 2024 -0800
+
+    Merge pull request #4 from renato2r/lesson-8
+    
+    styling added
+
+[33mcommit 9ac881c486b5d9788fc5ae139831cd73985e4765[m[33m ([m[1;31morigin/lesson-8[m[33m, [m[1;32mlesson-8[m[33m)[m
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Wed Dec 25 19:43:22 2024 -0800
+
+    styling added
+
+[33mcommit 9f0fca259cdaf4b7d8393df59621a0883b2cc753[m
+Merge: c1c6a23 f649a6c
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Thu Dec 19 10:54:53 2024 -0800
+
+    Merge pull request #3 from renato2r/lesson-7
+    
+    boilerplate and content added
+
+[33mcommit f649a6c926654d0fd138a5d50c7e75f4e29bc9ad[m[33m ([m[1;31morigin/lesson-7[m[33m, [m[1;32mlesson-7[m[33m)[m
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Tue Dec 10 17:40:59 2024 -0800
+
+    boilerplate and content added
+
+[33mcommit c1c6a2301e05facc41d56e00ec6e38db337b7195[m
+Merge: 18c75b5 28af1f8
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Sat Nov 30 18:49:42 2024 -0800
+
+    Merge pull request #2 from renato2r/lesson-5
+    
+    Adding a new file for test
+
+[33mcommit 28af1f800e705ff94afc38bfc8310318b94d56fa[m[33m ([m[1;31morigin/lesson-5[m[33m, [m[1;32mlesson-5[m[33m)[m
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Sat Nov 30 18:40:05 2024 -0800
+
+    Adding a new file for test
+
+[33mcommit 18c75b5f63c3252954d3d7451d06b5fe09839919[m
+Merge: eaf3ba6 22bbb60
+Author: Renato Martins dos Santos <renato2r@gmail.com>
+Date:   Thu Nov 28 11:09:36 2024 -0800
+
+    Merge pull request #1 from renato2r/lesson-5
+    
+    my first commit
+
+[33mcommit 22bbb60845e7e70c8ac0ab294d53267e7cb5c3c6[m
+Author: renato2r <renato2r@gmail.com>
+Date:   Mon Nov 18 20:24:48 2024 -0800
+
+    my first commit
+
+[33mcommit eaf3ba65273327a629d89aa0e421eb9b95a9bef5[m
+Author: Renato Martins dos Santos <22892210+renato2r@users.noreply.github.com>
+Date:   Mon Nov 18 19:19:16 2024 -0800
+
+    Initial commit

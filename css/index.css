@@ -1,5 +1,68 @@
+
+/****************Tablets*************************/
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .namePerson{
+        font-size: 20px;
+    }
+
+    p{
+        font-style: italic;
+    }
+
+  
+}
+/******* End Tablets Media Query ************/
+
+/****************Celphones*************************/
+@media (min-width: 360px) and (max-width: 932px) {
+    body {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+    }
+
+    p{
+        font-style:normal;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .namePerson{
+        font-size: 15px;
+    }
+
+    .divNavigation{
+        display:none ;
+    }
+
+    .experience-header{
+        font-size: 12px;
+        font-family: sans-serif;
+    }
+    
+    .job-description{
+        font-size: 10px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+}
+/******* End Celphones Media Query ************/
+
 html {
     scroll-behavior: smooth;
+    scroll-margin-top: 20px;
+     
 }
 
 body{
@@ -8,7 +71,6 @@ body{
     font-size: 12px;
     
 }
-
 
 h1{
     font-size: 25px;
@@ -34,19 +96,6 @@ a {
     font-size: 12px;
 }
 
-/*a::before {
-  content: '';
-  position: absolute;
-  width: 100%;
-  height: 4px;
-  border-radius: 4px;
-  background-color: darkkhaki;
-  bottom: 0;
-  left: 0;
-  transform-origin: right;
-  transform: scaleX(0);
-  transition: transform .3s ease-in-out;
-}*/
 
 a:hover::before {
   transform-origin: left;
@@ -70,6 +119,8 @@ section{
     padding: 5px;
     display: block;
     margin: 0 auto;
+    width: 180px;
+    height: 180px;
     border: 3px solid #18272F;
 }
 
@@ -151,13 +202,15 @@ section{
 
 .divNavigation {
     background-color: #333;
-    padding: 10px 20px;
+    padding: 10px;
+    
 }
 
 .navigation {
     display: flex;
     justify-content: center; /* Centralize links */
     align-items: center;
+    
 }
 
 .nav-list {
