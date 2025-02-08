@@ -305,3 +305,55 @@ section{
 .fa {
     font-size: 18px;
 }
+
+.footer-style {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    margin-bottom: 0px;
+}
+
+#Skills {
+    text-align: center;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Skills h2 {
+    
+    text-align: center;
+}
+
+#Skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilizando os itens da lista */
+#Skills li {
+    background-color: cornflowerblue;
+    color: white;
+    font-size: 12px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background-color 0.3s;
+}
+
+/* Efeito ao passar o mouse */
+#Skills li:hover {
+    background-color: #1e4db7;
+    transform: scale(1.1);
+}
