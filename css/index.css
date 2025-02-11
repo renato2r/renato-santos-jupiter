@@ -191,6 +191,7 @@ section{
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 1000;
    
    
 
@@ -282,6 +283,7 @@ section{
 
 .ulConnect li {
     margin: 0;
+    z-index: 10;
 }
 
 .ulConnect a {
@@ -356,4 +358,131 @@ section{
 #Skills li:hover {
     background-color: #1e4db7;
     transform: scale(1.1);
+}
+
+#leave-message {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+    max-width: 500px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#leave-message h2 {
+    font-size: 24px;
+    color: #18272F;
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #555;
+}
+
+form input,
+form textarea {
+    width: 30%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form textarea {
+    height: 100px;
+    resize: none;
+}
+
+form button {
+    background-color: rgb(104, 110, 122);
+    color: white;
+    font-size: 16px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #1e4db7;
+}
+/* Estilo para a seção de mensagens */
+#Messages {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#Messages h2 {
+    text-align: center;
+    color: #18272F;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+/* Estilo para a lista de mensagens */
+#Messages ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#Messages li {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* Estilo para o link do email */
+#Messages li a {
+    font-weight: bold;
+    color: cornflowerblue;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#Messages li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for message */
+#Messages li span {
+    flex-grow: 1;
+    color: #555;
+}
+
+/* Style for remove button */
+#Messages li button {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#Messages li button:hover {
+    background: darkred;
 }
