@@ -191,6 +191,7 @@ section{
     text-align: center;
     position: sticky;
     top: 0px;
+    z-index: 1000;
    
    
 
@@ -282,6 +283,7 @@ section{
 
 .ulConnect li {
     margin: 0;
+    z-index: 10;
 }
 
 .ulConnect a {
