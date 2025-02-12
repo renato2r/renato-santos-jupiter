@@ -14,7 +14,7 @@ body.appendChild(copyright);
 
 /******************** Skills **********************************************************/
 
-const skills = ["Javascript", "Html", "CSS", "GitHub", "SQL", "Data Analyst", "ERP"];
+const skills = ["Javascript", "Html", "CSS", "GitHub", "SQL", "Data Analyst", "ERP Systems", "Productivity tools", "Technical Support", "IT Specialist", "ETL", "Training", "Project Management", "Microsoft Office"];
 const skillsSection = document.getElementById("Skills");
 const skillsList = skillsSection.querySelector("ul");
 
